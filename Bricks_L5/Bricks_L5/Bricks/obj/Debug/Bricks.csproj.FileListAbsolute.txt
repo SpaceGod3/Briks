@@ -1,0 +1,7 @@
+F:\C#\Game\Bricks_L5\Bricks_L5\Bricks\bin\Debug\Bricks.exe.config
+F:\C#\Game\Bricks_L5\Bricks_L5\Bricks\bin\Debug\Bricks.exe
+F:\C#\Game\Bricks_L5\Bricks_L5\Bricks\bin\Debug\Bricks.pdb
+F:\C#\Game\Bricks_L5\Bricks_L5\Bricks\obj\Debug\Bricks.csproj.AssemblyReference.cache
+F:\C#\Game\Bricks_L5\Bricks_L5\Bricks\obj\Debug\Bricks.csproj.CoreCompileInputs.cache
+F:\C#\Game\Bricks_L5\Bricks_L5\Bricks\obj\Debug\Bricks.exe
+F:\C#\Game\Bricks_L5\Bricks_L5\Bricks\obj\Debug\Bricks.pdb

@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="Bricks.Area">
+    <Position X="0.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAgAAAAAAAEAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Area.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Bricks.Ball">
+    <Position X="2.75" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>CAAEAAAQAIAAAggAAAAAAAAACAAAAAAAAAAAgYAAYAA=</HashCode>
+      <FileName>Ball.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Bricks.Block">
+    <Position X="8.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAgAAAAAAAEAACAAIAAAACACAgAAAAAA=</HashCode>
+      <FileName>Block.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Bricks.MovingBlock">
+    <Position X="8.5" Y="4.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAIAAAAgAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>MovingBlock.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Bricks.Game">
+    <Position X="2.75" Y="4.75" Width="2.5" />
+    <AssociationLine Name="paddle" Type="Bricks.MovingBlock" FixedFromPoint="true">
+      <Path>
+        <Point X="5.25" Y="6.445" />
+        <Point X="8.5" Y="6.445" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="bricks" Type="Bricks.Brick" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="5.25" Y="5.982" />
+        <Point X="7" Y="5.982" />
+        <Point X="7" Y="5.127" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AICAgAgRRAAAAAIgAEEAAEAIEUUAEAAQEUBABogACAM=</HashCode>
+      <FileName>Game.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="area" />
+      <Field Name="ball" />
+      <Field Name="paddle" />
+      <Field Name="collisionHandler" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="bricks" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Bricks.Brick">
+    <Position X="6.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Brick.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bricks.Program">
+    <Position X="8" Y="9" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAIAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="game" />
+      <Field Name="collisionHandler" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Bricks.Collisions.CollisionHandler">
+    <Position X="11.25" Y="7" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAAABAAAAAAIAAAAA=</HashCode>
+      <FileName>Collisions\CollisionHandler.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Bricks.Collisions.HitEventArgs">
+    <Position X="11.25" Y="10" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Collisions\HitEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Bricks.IDrawable">
+    <Position X="6.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IDrawable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Bricks.IMovable">
+    <Position X="6.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IMovable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Bricks.Collisions.ICollisionHandler">
+    <Position X="8" Y="7" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>Collisions\ICollisionHandler.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
